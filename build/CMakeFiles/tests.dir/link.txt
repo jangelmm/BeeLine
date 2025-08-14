@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/tests/test_parser.cpp.o CMakeFiles/tests.dir/src/Utils/ParserArgs.cpp.o CMakeFiles/tests.dir/src/Utils/Parametros.cpp.o -o tests  lib/libgtest_main.a lib/libgtest.a 

@@ -1,0 +1,5 @@
+if(EXISTS "/media/Files/Documentos/Proyectos/BeeLine/build/tests[1]_tests.cmake")
+  include("/media/Files/Documentos/Proyectos/BeeLine/build/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()
