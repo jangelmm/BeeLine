@@ -1,6 +1,6 @@
-#include <iostream>
-using namespace std;
+#include "BeeLine.h"
 
-int main(){
-    cout << "Hola Mundo" << endl;
+int main(int argc, char* argv[]) {
+    BeeLine app;
+    return app.run(argc, argv);
 }
