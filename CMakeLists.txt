@@ -51,7 +51,6 @@ add_executable(tests
 )
 
 
-
 target_link_libraries(tests gtest_main)
 
 target_include_directories(tests PRIVATE
