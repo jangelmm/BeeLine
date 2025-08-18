@@ -1,0 +1,111 @@
+Start testing: Aug 14 18:09 CST
+----------------------------------------------------------
+1/4 Testing: ParserArgsTest.DetectaInputOutput
+1/4 Test: ParserArgsTest.DetectaInputOutput
+Command: "/media/Files/Documentos/Proyectos/BeeLine/build/tests" "--gtest_filter=ParserArgsTest.DetectaInputOutput" "--gtest_also_run_disabled_tests"
+Directory: /media/Files/Documentos/Proyectos/BeeLine/build
+"ParserArgsTest.DetectaInputOutput" start time: Aug 14 18:09 CST
+Output:
+----------------------------------------------------------
+Running main() from /media/Files/Documentos/Proyectos/BeeLine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserArgsTest.DetectaInputOutput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserArgsTest
+[ RUN      ] ParserArgsTest.DetectaInputOutput
+[       OK ] ParserArgsTest.DetectaInputOutput (0 ms)
+[----------] 1 test from ParserArgsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ParserArgsTest.DetectaInputOutput" end time: Aug 14 18:09 CST
+"ParserArgsTest.DetectaInputOutput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: ParserArgsTest.DetectaAlgoritmoYOrigen
+2/4 Test: ParserArgsTest.DetectaAlgoritmoYOrigen
+Command: "/media/Files/Documentos/Proyectos/BeeLine/build/tests" "--gtest_filter=ParserArgsTest.DetectaAlgoritmoYOrigen" "--gtest_also_run_disabled_tests"
+Directory: /media/Files/Documentos/Proyectos/BeeLine/build
+"ParserArgsTest.DetectaAlgoritmoYOrigen" start time: Aug 14 18:09 CST
+Output:
+----------------------------------------------------------
+Running main() from /media/Files/Documentos/Proyectos/BeeLine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserArgsTest.DetectaAlgoritmoYOrigen
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserArgsTest
+[ RUN      ] ParserArgsTest.DetectaAlgoritmoYOrigen
+[       OK ] ParserArgsTest.DetectaAlgoritmoYOrigen (0 ms)
+[----------] 1 test from ParserArgsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ParserArgsTest.DetectaAlgoritmoYOrigen" end time: Aug 14 18:09 CST
+"ParserArgsTest.DetectaAlgoritmoYOrigen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: ParserArgsTest.DetectaHelp
+3/4 Test: ParserArgsTest.DetectaHelp
+Command: "/media/Files/Documentos/Proyectos/BeeLine/build/tests" "--gtest_filter=ParserArgsTest.DetectaHelp" "--gtest_also_run_disabled_tests"
+Directory: /media/Files/Documentos/Proyectos/BeeLine/build
+"ParserArgsTest.DetectaHelp" start time: Aug 14 18:09 CST
+Output:
+----------------------------------------------------------
+Running main() from /media/Files/Documentos/Proyectos/BeeLine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserArgsTest.DetectaHelp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserArgsTest
+[ RUN      ] ParserArgsTest.DetectaHelp
+[       OK ] ParserArgsTest.DetectaHelp (0 ms)
+[----------] 1 test from ParserArgsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ParserArgsTest.DetectaHelp" end time: Aug 14 18:09 CST
+"ParserArgsTest.DetectaHelp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: ParserArgsTest.ParametrosIncompletos
+4/4 Test: ParserArgsTest.ParametrosIncompletos
+Command: "/media/Files/Documentos/Proyectos/BeeLine/build/tests" "--gtest_filter=ParserArgsTest.ParametrosIncompletos" "--gtest_also_run_disabled_tests"
+Directory: /media/Files/Documentos/Proyectos/BeeLine/build
+"ParserArgsTest.ParametrosIncompletos" start time: Aug 14 18:09 CST
+Output:
+----------------------------------------------------------
+Running main() from /media/Files/Documentos/Proyectos/BeeLine/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserArgsTest.ParametrosIncompletos
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserArgsTest
+[ RUN      ] ParserArgsTest.ParametrosIncompletos
+[       OK ] ParserArgsTest.ParametrosIncompletos (0 ms)
+[----------] 1 test from ParserArgsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ParserArgsTest.ParametrosIncompletos" end time: Aug 14 18:09 CST
+"ParserArgsTest.ParametrosIncompletos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 14 18:09 CST
