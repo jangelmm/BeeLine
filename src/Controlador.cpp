@@ -1,4 +1,5 @@
 #include "Controlador.h"
+#include "IO/CSVReader.h"
 #include <iostream>
 
 int Controlador::ejecutar(int argc, char* argv[]) {
@@ -10,19 +11,23 @@ int Controlador::ejecutar(int argc, char* argv[]) {
         return 0;
     }
 
-    // Validación mínima
     if (params.input.empty() || params.output.empty()) {
         std::cerr << "Error: Debe especificar archivo de entrada y salida.\n";
         parser.mostrarAyuda();
         return 1;
     }
 
-    std::cout << "Input file: " << params.input << "\n";
-    std::cout << "Output file: " << params.output << "\n";
-    std::cout << "Algorithm: " << params.algoritmo << "\n";
-    std::cout << "Origin node: " << params.origen << "\n";
-    std::cout << "BeeLine ready to run!\n";
+    // Crear grafo y leer CSV
+    Grafo grafo;
+    if (!CSVReader::leerCSV(params.input, grafo)) {
+        std::cerr << "Error al leer el archivo CSV.\n";
+        return 1;
+    }
 
-    // Aquí más adelante se llamaría a los algoritmos y CSVWriter
+    std::cout << "Grafo cargado con " << grafo.obtenerNodos().size() 
+              << " nodos y " << grafo.obtenerAristas().size() 
+              << " aristas.\n";
+
+    // Aquí más adelante se llamaría a los algoritmos
     return 0;
 }
