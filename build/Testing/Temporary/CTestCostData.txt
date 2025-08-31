@@ -1,5 +1,5 @@
-ParserArgsTest.DetectaInputOutput 3 0.00161917
-ParserArgsTest.DetectaAlgoritmoYOrigen 3 0.00146517
-ParserArgsTest.DetectaHelp 3 0.00178302
-ParserArgsTest.ParametrosIncompletos 3 0.00151099
+ParserArgsTest.DetectaInputOutput 2 0.00252028
+ParserArgsTest.DetectaAlgoritmoYOrigen 2 0.00198638
+ParserArgsTest.DetectaHelp 2 0.00244793
+ParserArgsTest.ParametrosIncompletos 2 0.00183785
 ---
